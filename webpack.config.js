@@ -5,7 +5,7 @@ var webpack = require('webpack');
 module.exports = {
   devtool: 'inline-sourcemap',
   entry: [
-  	path.resolve('src/app.jsx'),
+  	path.resolve('src/App.jsx'),
   ],
   output: {
     path: path.resolve('build'),
